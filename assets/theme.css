@@ -1,0 +1,73 @@
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.active-able:active,
+button:active {
+  opacity: 0.7;
+  transition: opacity 0.1s;
+}
+
+button {
+  background: none;
+  user-select: none;
+  white-space: pre;
+  cursor: pointer;
+}
+
+html,
+body,
+#__layout,
+#__nuxt {
+  height: 100%;
+  font-size: 12px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.primary-btn {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background: #04e1c9;
+}
+
+.primary-btn:hover {
+  opacity: 0.8;
+}
+
+.primary-btn:active {
+  opacity: 0.6;
+}
+
+.red {
+  color: red!important;
+}
+
+.gary {
+  color: #706e6e;
+}
+#crisp-chatbox .cc-7doi {
+  display: none !important;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.currency-item {
+  white-space: pre !important;
+}
